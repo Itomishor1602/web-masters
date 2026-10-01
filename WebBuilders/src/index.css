@@ -5,7 +5,7 @@ body {
   font-weight: 400;
   padding: 0px 30px 0 30px;
   min-height: 100vh;
-  background: hsl(0, 3%, 89%);
+  background: hsla(0, 4%, 89%, 0.91);
   color: #1f2937;
 }
 
@@ -30,5 +30,5 @@ body {
 @import "tailwindcss";
 
 @theme {
-  --color-secondary: hsl(225, 80%, 30%);
+  --color-secondary: hsl(225, 80%, 14%);
 }

@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="px-8 py-6">
       <div className="flex items-center justify-between">
         {/* Logo */}
-        <h1 className="cursor-pointer text-3xl md:text-4xl font-bold">
+        <h1 className="cursor-pointer text-3xl md:text-4xl font-bold text-secondary">
           Web Masters<span className="text-secondary">.</span>
         </h1>
 

@@ -27,11 +27,11 @@ const Contact = () => {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.8 }}
         >
-          <p className="text-secondary font-semibold uppercase tracking-wider">
+          <p className="text-secondary text-xl font-semibold uppercase tracking-wider">
             Contact Us
           </p>
 
-          <h1 className="mt-4 text-4xl md:text-5xl font-bold">
+          <h1 className="text-secondary mt-4 text-4xl md:text-5xl font-bold">
             Let's Build Something Amazing Together.
           </h1>
 

@@ -50,11 +50,11 @@ const AboutUs = () => {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.8 }}
         >
-          <p className="text-secondary font-semibold uppercase tracking-wider">
+          <p className="text-secondary text-xl font-semibold uppercase tracking-wider">
             About Us
           </p>
 
-          <h1 className="mt-4 text-4xl md:text-5xl font-bold leading-tight">
+          <h1 className="mt-4 text-4xl md:text-5xl font-bold leading-tight text-secondary">
             We Build Websites That Help Brands Grow.
           </h1>
 

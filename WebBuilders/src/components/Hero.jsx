@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <motion.section
-      className="flex min-h-[80vh] flex-col items-center justify-center text-center px-6"
+      className="flex min-h-[80vh] flex-col items-center justify-center text-center px-2"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      <h1 className="max-w-5xl text-[clamp(2rem,6vw,6rem)] font-bold leading-[1.1]">
+      <h1 className="max-w-5xl text-[clamp(2rem,6vw,6rem)] font-bold leading-[1.1] text-secondary">
         Brand Growth Starts With The{" "}
        <span className="inline-block bg-linear-to-r from-[hsl(360,80%,45%)] to-[hsl(225,70%,60%)] bg-clip-text text-transparent">
   Perfect

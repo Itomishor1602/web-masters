@@ -57,8 +57,8 @@ const Services = () => {
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.7 }}
       >
-        <h1 className="text-4xl md:text-5xl font-bold">
-          Our <span className="text-secondary">Services</span>
+        <h1 className="text-secondary text-4xl md:text-5xl font-bold">
+          What do we do?
         </h1>
 
         <p className="mt-4 text-gray-800 text-lg">
